@@ -31,7 +31,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 
 - Once the user searches for a new country the old data no longer linger arounds and is replaced with the new country data.
-- Create a interactive animation letting the user know corona has struck.
+- Create a live animation letting the user know corona has struck.
 
 ## Project Schedule
 
@@ -71,7 +71,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with Reactive JS | H | 3hrs| -hrs | -hrs |
 | Working with HTML | H | 3hrs| -hrs | -hrs |
 | Reviewing Code/Touch Ups | H | 5hrs| -hrs | -hrs |
-| Total | H | 31hrs| -hrs | -hrs |
+| Total | H | 32hrs| -hrs | -hrs |
 
 ## Code Snippet
 
