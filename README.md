@@ -12,9 +12,9 @@ I will consume the Covid-19 API and allow users to specify countries by name to 
 
 
 https://covid-api.mmediagroup.fr/v1//cases?country=All
-
+```json
 {"Afghanistan": {"All": {"confirmed": 55617, "recovered": 48895, "deaths": 2433, "country": "Afghanistan", "population": 35530081, "sq_km_area": 652090}}
-
+```
 
 ## Wireframes
 https://wireframe.cc/ApC6aI
