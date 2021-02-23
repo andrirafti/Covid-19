@@ -21,16 +21,16 @@ https://wireframe.cc/ApC6aI
 
 ### MVP/PostMVP
 #### MVP 
-- Allow user to Search a country and click a Button to retrieve data.
-- Data Pops up on the page.
-- Allow User to navigate around the page (Home Screen Button, Covid-Cases Button that will guide you to said location upon a click) 
--Once the user searches for a new country the old data no longer linger arounds and is replaced with the new country data.
+- Allow user to Search a country by drop-down menu. 
+- Render Country Name, Population, Cases to the DOM.
+- Allow User to navigate HTML with anchor tags.
+- Reset Data on new search. 
 #### PostMVP  
 - Create a live animation letting the user know corona has struck.
-
+- Allow user to select city or state depending on Country. 
+- Render City/State Data based upon Country. 
+- 
 ## Project Schedule
- 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
