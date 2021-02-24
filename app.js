@@ -86,3 +86,22 @@ let removelast = function () {
     removeme.removeChild(removeme.lastChild)
   }
 }
+
+
+///
+
+
+document.querySelector('.Link').addEventListener("click", function () {
+  window.open("https://www.youtube.com/watch?v=i0ZabxXmH4Y")
+})
+
+
+document.querySelector('.Message').addEventListener("click", function () {
+  document.querySelector('.Wow').value = ''
+  document.querySelector('.Wow1').value = ''
+  document.querySelector('.Wow2').value=''
+  alert("Message sent!")
+
+  
+}
+)
