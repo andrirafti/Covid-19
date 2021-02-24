@@ -33,7 +33,53 @@ document.querySelector('#search').addEventListener('click', function () {
   document.querySelector('#blank').value=''
 })
 
-//remove last
+
+//STATE SEARCH//
+async function Covid(statename) {
+  
+  removelast();
+  let URL = `https://covid-api.mmediagroup.fr/v1//cases?country=US`
+  try {
+    let data2 = await axios.get(URL)
+    let updateddata = data2.data[`${statename}`] // this works because its an array of objects so to call the states name use [] since its before the actual object input
+    //console.log(data2.data)                       // So if we type in All for the above it will give All data for above country aka US
+    PushToBrowser1(updateddata)
+    
+  }
+  catch {
+    alert("No State Found")
+  }
+  
+}
+
+
+
+
+
+
+let PushToBrowser1 = function (val2) {
+  let TheDiv1= document.querySelector('.div')
+  let CovidHTML1 = `
+   <h1>  USA: State Results </h1>
+   <p> 🤕 Cases :${val2.confirmed}</p>
+   <p> 🪦 Deaths :${val2.deaths}</p>
+   <p> 💻 Updated :${val2.updated}</p>
+   `
+   TheDiv1.insertAdjacentHTML('beforeend',CovidHTML1)
+}
+ //
+ document.querySelector('.Search1').addEventListener('click', function () {
+  Covid(document.querySelector('#blank1').value)// its like replacing country in the URL link with whatever we search for.
+ document.querySelector('#blank1').value=''
+})
+
+
+
+
+
+
+
+//remove last//
 let removelast = function () {
   let removeme = document.querySelector('.div')
   while (removeme.lastChild) {
