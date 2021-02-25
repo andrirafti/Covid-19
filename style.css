@@ -139,12 +139,13 @@ button {
   }
   .list{
     margin:45px;
-    padding:5px;
+   
     background-color:lavenderblush
     
   }
   .nav{
     display: flexbox;
+    padding: 3px;
     
     
     
