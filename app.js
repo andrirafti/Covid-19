@@ -32,6 +32,9 @@ document.querySelector('#search').addEventListener('click', function () {
    Covid19(document.querySelector('#blank').value)// its like replacing country in the URL link with whatever we search for.
   document.querySelector('#blank').value=''
 })
+document.querySelector('.Search1').addEventListener('click',function(){
+  
+})
 
 
 //STATE SEARCH//
@@ -105,3 +108,7 @@ document.querySelector('.Message').addEventListener("click", function () {
   
 }
 )
+
+
+//Loading Gif//
+
