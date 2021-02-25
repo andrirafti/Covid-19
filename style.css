@@ -1,3 +1,8 @@
+*{
+   box-sizing: border-box;
+   border-color: black  
+}
+
 body {
   background:silver;
  text-align:center;
@@ -9,10 +14,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   flex-flow: column-reverse;
-  background-color:royalblue
+  background-color:azure
  }
  .list ul{
   margin: 10px;
+  padding: 10px;
  
  }
  .list ul li{
@@ -108,3 +114,175 @@ button {
     background-color:mistyrose;
     width:135px
   }
+  .Title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: beige;
+    margin: 75px;
+  }
+  .Rona{
+    width:280px
+  }
+  #search{
+    width:60px
+
+  }
+  .Header2{
+   font-size: larger;
+   font-style: oblique;
+   
+   
+  }
+  .list{
+    margin: 30px;
+    padding:5px;
+    background-color: steelblue
+    
+  }
+  .nav{
+    margin: 20px;
+  }
+}
+.Info{
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+border: 2px;
+margin-left: 10px;
+flex-direction: row;
+
+}
+.CovidInfo1{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.nav{
+  background-color: coral;
+  
+} 
+  
+.intro{
+  color: aliceblue;
+  font-style:initial;
+  text-decoration: azure;
+  position: relative;
+  height:100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 0 0 3rem 1rem black inset;
+  text-align: center;
+  font-size:2rem;
+  line-height: 3.25rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2.5rem;
+  padding: 3rem 2rem;
+  border-radius: 0.25rem;
+  background-color: black;
+  backdrop-filter: blur(10px);
+opacity: 0;
+animation: fadeIn 0.5s ease-out forwards;
+}
+
+.intro-image{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: contrast(120%) ;
+  animation: zoominImage 8.5s ease-out forwards;
+}
+@keyframes zoominImage{
+  10%{
+    transform: translate(22vh) scale(1.5)
+  }
+}
+
+
+.intro .first  {
+  opacity: 0;
+  animation: fadeInOut 4.5s  ease-out 3.0s forwards 
+} 
+
+.intro .second  {
+  padding: auto;
+  margin-inline-start: inherit;
+  opacity: 0;
+  animation: fadeInOut 6.0s ease-out 4.0s forwards
+} 
+.intro .third  {
+  padding: auto;
+  margin-inline-start: inherit;
+  opacity: 0;
+  animation: fadeInOut 7.0s ease-out 5.0s forwards
+} 
+.Loading{
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  animation: fadeInOut 0.5s 
+}
+@keyframes fadeIn{
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes fadeInOut{
+  20%{
+    opacity: 1;
+  }
+
+}
+.first{
+  background-color: black;
+  box-sizing: border-box;
+font-size: 20px;}
+.second{font-size: 20px;
+background-color: black;
+box-sizing: border-box;
+animation: fadeIn 0.75s  ease-out 3s forwards}
+.third{font-size: 20px;
+background-color: black;
+animation: fadeIn 0.75s ease-out 3s forwards;}
+
+
+.contact div{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: gainsboro;
+ border: 1px solid black
+ }
+ .contact div input, .contact div textarea{
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+ }
+ .Questions{
+   text-decoration: underline;
+   color: royalblue;
+   font-style:italic
+ }
+
+
+
+#search{
+  width:71px ;
+}
+.Covida{
+  width:280px;
+  float: center;
+  opacity: 0;
+  animation: fadeIn 2.75s ease-out 8s forwards ;
+}
+.Link{
+  background-color:lavender;
+  opacity: 0;
+  animation: fadeIn 3.00s ease-out 8.75s forwards
+}
