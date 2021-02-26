@@ -44,6 +44,14 @@ body {
     transform: rotate(359deg);
   }
 }
+.rotate1{
+  animation: rotation 8s infinite linear;
+  width: 130px;
+  display:flex;
+  flex-direction:inherit;
+  float: right;
+}
+
 .Rona{
   width:350px;
 }
