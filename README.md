@@ -48,20 +48,20 @@ https://imgur.com/a/63jcTkj
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Style-Drop Down Menu  | H | 3hrs| -hrs | -hrs |
-| Flex-Box  | H | 2hrs| -hrs | -hrs |
-| API Requests  | H | 2hrs| -hrs | -hrs |
-| Clickable Internal Links | H | 2hrs| -hrs | -hrs |
-| Filter API Data for new drop-down | H | 3hrs| -hrs | -hrs |
-| Working with Animation | H | 4hrs| -hrs | -hrs |
-| Render Dynamic content| H | 3hrs| -hrs | -hrs |
-| Create dynamic drop-down menu with JS  | H | 3hrs| -hrs | -hrs |
-| Working with HTML | H | 2hrs| -hrs | -hrs |
-| Reviewing Code/Touch Ups | H | 5hrs| -hrs | -hrs |
-| Clear previously rendered Data  | H | 1hrs| -hrs | -hrs |
-| Style Background | H | 2hrs| -hrs | -hrs |
-| Add Images | H | 2hrs| -hrs | -hrs |
-| Total | H | 32hrs| -hrs | -hrs |
+| Style-Drop Down Menu  | H | 3hrs| 3hrs | 3hrs |
+| Flex-Box  | H | 2hrs| 2hrs | 2hrs |
+| API Requests  | H | 2hrs| 2hrs | 2hrs |
+| Clickable Internal Links | H | 2hrs| 2hrs | 2hrs |
+| Filter API Data for new drop-down | H | 3hrs| 3hrs | 3hrs |
+| Working with Animation | H | 4hrs| 4hrs | 4hrs |
+| Render Dynamic content| H | 3hrs| 3hrs | 3hrs |
+| Create dynamic drop-down menu with JS  | H | 3hrs| 3hrs | 3hrs |
+| Working with HTML | H | 2hrs| 2hrs | 2hrs |
+| Reviewing Code/Touch Ups | H | 5hrs| 4hrs | 4hrs |
+| Clear previously rendered Data  | H | 1hrs| 1hrs | 1hrs |
+| Style Background | H | 2hrs| 2hrs | 2hrs |
+| Add Images | H | 2hrs| 2hrs | 2hrs |
+| Total | H | 32hrs| 31hrs | 31hrs |
 
 ## Code Snippet
 
