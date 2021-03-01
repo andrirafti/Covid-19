@@ -12,7 +12,7 @@ async function Covid19(country) {
     alert("Try Again, country has not been found")
   }
 }
-
+// Insert Country Search to DOM//
 let PushCovidToBrowser = function (val) {
  let TheDiv= document.querySelector('.div')
   let CovidHTML = `
@@ -26,10 +26,10 @@ let PushCovidToBrowser = function (val) {
   `
   TheDiv.insertAdjacentHTML('beforeend',CovidHTML)
 }
-//
+// Button click makes values go back to empty and set its values//
 
 document.querySelector('#search').addEventListener('click', function () {
-   Covid19(document.querySelector('#blank').value)// its like replacing country in the URL link with whatever we search for.
+   Covid19(document.querySelector('#blank').value)// replacing country in the URL link with whatever we search for.
   document.querySelector('#blank').value=''
 })
 document.querySelector('.Search1').addEventListener('click',function(){
@@ -45,9 +45,7 @@ async function Covid(statename) {
   try {
     let data2 = await axios.get(URL)
     let updateddata = data2.data[`${statename}`] // this works because its an array of objects so to call the states name use [] since its before the actual object input
-    //console.log(data2.data)                       // So if we type in All for the above it will give All data for above country aka US
     PushToBrowser1(updateddata)
-    
   }
   catch {
     alert("No State Found")
@@ -68,7 +66,7 @@ let PushToBrowser1 = function (val2) {
    <p> 🪦 Deaths :${val2.deaths}</p>
    <p> 💻 Updated :${val2.updated}</p>
    `
-   TheDiv1.insertAdjacentHTML('beforeend',CovidHTML1)
+  TheDiv1.insertAdjacentHTML('beforeend', CovidHTML1)
 }
  //
  document.querySelector('.Search1').addEventListener('click', function () {
@@ -82,7 +80,7 @@ let PushToBrowser1 = function (val2) {
 
 
 
-//remove last//
+//remove last child//
 let removelast = function () {
   let removeme = document.querySelector('.div')
   while (removeme.lastChild) {
@@ -91,14 +89,14 @@ let removelast = function () {
 }
 
 
-///
+/// Youtube link COVID origin
 
 
 document.querySelector('.Link').addEventListener("click", function () {
   window.open("https://www.youtube.com/watch?v=i0ZabxXmH4Y")
 })
 
-
+// Set email values back to normal//
 document.querySelector('.Message').addEventListener("click", function () {
   document.querySelector('.Wow').value = ''
   document.querySelector('.Wow1').value = ''
@@ -109,6 +107,4 @@ document.querySelector('.Message').addEventListener("click", function () {
 }
 )
 
-
-//Loading Gif//
 
