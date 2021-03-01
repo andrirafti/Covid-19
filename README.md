@@ -35,11 +35,11 @@ https://wireframe.cc/ApC6aI
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Feb 23| Project Approval | Incomplete
-|Feb 24| HTML,JS Code(finish all the JS features) | Incomplete
+|Feb 23| Project Approval | Complete
+|Feb 24| HTML,JS Code(finish all the JS features) | Complete
 |Feb 24| Style with CSS| Incomplete
-|Feb 25| MVP COMPLETION/ Animation+Extra Credit Post MVP ADD-ons  | Incomplete
-|Feb 26| Review code to see if any errors appear anywhere | Incomplete
+|Feb 25| MVP COMPLETION/ Animation+Extra Credit Post MVP ADD-ons  | Complete
+|Feb 26| Review code to see if any errors appear anywhere | Complete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
